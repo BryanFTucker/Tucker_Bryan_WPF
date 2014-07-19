@@ -13,5 +13,5 @@ const denominator = 166;
 
 result = (length * width * height)/denominator;
 
-alert("The Dimensional Weight of your package is " +result+ " lbs.")
+alert("The Dimensional Weight of your package is " +result+ " lbs.");
 
