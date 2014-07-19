@@ -6,4 +6,6 @@ prompt width = var("What is the width of you image?");
 
 prompt height = var("What is the height of your image?");
 
-prompt dpi = var("What is the image dpi?")
+prompt dpi = var("What is the image dpi?");
+
+pxWidth = width * dpi;
