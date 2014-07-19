@@ -9,5 +9,9 @@ var width = prompt("What is the width of your package?");
 
 var height = prompt("What is the height of you package?");
 
-const denominator = 166
+const denominator = 166;
+
+result = (length * width * height)/denominator;
+
+
 
