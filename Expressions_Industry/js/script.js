@@ -11,3 +11,5 @@ prompt dpi = var("What is the image dpi?");
 pxWidth = width * dpi;
 
 pxHeight = height * dpi;
+
+alert ("The image is " + pxWidth + "px by " + pxHeight + "px.");
