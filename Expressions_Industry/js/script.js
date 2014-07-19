@@ -6,3 +6,5 @@
 var length = prompt("What is the length of you package?");
 
 var width = prompt("What is the width of your package?");
+
+var height = prompt("What is the height of you package?");
