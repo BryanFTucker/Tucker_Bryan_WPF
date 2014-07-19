@@ -1,15 +1,6 @@
 /**
  * Created by bryantucker on 7/17/14.
  * Expressions_Industry
+ * This JavaScript will calculate Dimensional weight. Dimensional weight is used by UPS to determine how much the customer is billed. I work at The UPS Store and I use this equation on a daily basis.
  */
-var width = prompt("What is the width of your image in inches?");
-
-var height = prompt("What is the height of your image in inches?");
-
-var dpi = prompt("What is the image dpi?");
-
-pxWidth = width * dpi;
-
-pxHeight = height * dpi;
-
-alert ("The image is " + pxWidth + "px by " + pxHeight + "px.");
+var length = prompt("What is the length of you package?")
