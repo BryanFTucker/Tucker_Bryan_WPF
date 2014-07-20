@@ -7,7 +7,7 @@ var degCent;
 
 degCent = 5/9 * (degFahren - 32);
 
-console.log(degFahren + "\xB0 Fahrenheit is " + degCent + "\xB0 centigrade<br />");
+console.log(degFahren + "\xB0 Fahrenheit is " + degCent + "\xB0 centigrade");
 
 if (degCent < 0)
 {
