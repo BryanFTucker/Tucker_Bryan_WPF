@@ -2,5 +2,7 @@
  * Created by bryantucker on 7/18/14.
  * Expressions_Wacky
  */
-var coolCars = ["Audi", "Aston Martin", "Ferrari", "Bently", "Lamborghini", "Maserati", "Rolls-Royce", "Morgan", "McLaren", "Lexus"];
+var num1 = prompt("Enter a number between 1 and 1000.");
+
+
 
