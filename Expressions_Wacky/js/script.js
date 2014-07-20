@@ -10,4 +10,4 @@ var num3 = prompt("One more number please.");
 
 var numList = [num1, num2, num3];
 
-
+alert(Math.max(numList[0], numList[1], numList[2]));
