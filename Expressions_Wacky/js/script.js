@@ -8,4 +8,6 @@ var num2 = prompt("Please enter another number between 1 and 1000.");
 
 var num3 = prompt("One more number please.");
 
+var numList = [num1, num2, num3];
+
 
