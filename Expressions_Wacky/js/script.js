@@ -11,3 +11,5 @@ var num3 = prompt("One more number please.");
 var numList = [num1, num2, num3];
 
 var result = Math.max(numList[0], numList[1], numList[2]);
+
+alert("The highest number you typed in was " + result + ".");
