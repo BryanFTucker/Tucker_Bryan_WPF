@@ -6,3 +6,6 @@
 const userName = "TheUPSStore"
 const passWord = "password"
 
+var inputUserName = prompt("Please enter your username:");
+
+var inputPassWord = prompt("Please enter your password:");
