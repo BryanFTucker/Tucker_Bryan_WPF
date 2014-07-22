@@ -10,6 +10,8 @@ var inputUserName = prompt("Please enter your username:");
 
 var inputPassWord = prompt("Please enter your password:");
 
-if (inputUserName === userName){
+if (inputUserName === userName && inputPassWord === passWord){
     alert("Welcome, " + userName + "!");
+}else if (inputUserName != userName){
+    alert("User not found. Try again.")
 }
