@@ -10,6 +10,7 @@ var inputUserName = prompt("Please enter your username:");
 
 var inputPassWord = prompt("Please enter your password:");
 
+//This will display "Welcome, TheUPSStore!" if the username and password are correct. If the username is incorrect it will display the second alert. if the password is incorrect it will display the third alert.
 if (inputUserName === userName && inputPassWord === passWord){
    result = alert("Welcome, " + userName + "!");
 }else if (inputUserName != userName){
