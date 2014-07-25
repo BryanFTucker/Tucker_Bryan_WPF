@@ -1,0 +1,5 @@
+/*This changes the font and centers h1, h2, and h3*/
+h1, h2, h3{
+    text-align: center;
+    font-family: Papyrus, fantasy;
+}
