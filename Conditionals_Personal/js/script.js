@@ -9,11 +9,11 @@ var timeOfDay = prompt("What time of day is it? ", "morning, afternoon, or eveni
 //Ask the user if the dogs have food.
 var foodForDogs = prompt("Do the dogs have food?");
 
-//If it is morning then the dogs need food.
-if (timeOfDay === "morning"){
+//If it is morning then the dogs need food. Also, removed case sensitivity from user input.
+if (timeOfDay.toLowerCase() == "morning"){
     console.log("It's time to feed the dogs.");
-//If the dogs do not have food, then they need food.
-}else if (foodForDogs === "no"){
+//If the dogs do not have food, then they need food. Also, removed case sensitivity from user input.
+}else if (foodForDogs.toLowerCase() == "no"){
     console.log("It's time to feed the dogs.");
 //If the dogs have food and the time of day is afternoon or evening, then they do not need food.
 }else{
