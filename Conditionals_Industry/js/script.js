@@ -9,3 +9,9 @@ var fraGile = prompt("Is you package fragile?");
 if (fraGile === "") {
     prompt("Please enter yes or no");
 }
+
+var myBox = prompt("Does your package need to shipped in a box?");
+
+if (myBox === "") {
+    prompt("Please enter yes or no");
+}
