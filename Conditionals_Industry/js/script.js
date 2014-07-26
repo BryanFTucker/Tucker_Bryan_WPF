@@ -17,3 +17,5 @@ if (myBox === "") {
     prompt("Please enter yes or no");
 }
 
+fraGile === "yes" && myBox === "yes" ? console.log("You need packing peanuts.") : console.log("Your package will be okay.");
+
