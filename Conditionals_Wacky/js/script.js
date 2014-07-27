@@ -5,4 +5,5 @@
  */
 var lightSpeed = prompt("Shall we prepare the ship for light speed?", "yes or no");
 
-lightspeed === "" ? prompt("Please enter yes or no.") : lightSpeed;
+lightSpeed === "" ? prompt("Please enter yes or no.") : lightSpeed;
+
