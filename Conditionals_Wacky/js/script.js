@@ -18,11 +18,11 @@ if (shipSpeed === "" || (shipSpeed <= 0 && shipSpeed > 3)){
 }
 
 
-var v1 = 1
-
-var v2 = 2
-
-var v3 = 3
-
-
+if (shipSpeed === "1"){
+    console.log("You're going faster than the speed of light!");
+}else if(shipSpeed === "2"){
+    console.log("You're going twice the speed of light. That's Ridiculous speed!");
+}else{
+    console.log("That's Ludicrous speed! You've gone into plaid!");
+}
 
