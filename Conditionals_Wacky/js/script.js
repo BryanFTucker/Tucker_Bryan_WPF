@@ -22,7 +22,7 @@ if (shipSpeed === "1"){
     console.log("You're going faster than the speed of light!");
 }else if(shipSpeed === "2"){
     console.log("You're going twice the speed of light. That's Ridiculous speed!");
-}else{
+}else if (shipSpeed === "3"){
     console.log("That's Ludicrous speed! You've gone into plaid!");
 }
 
