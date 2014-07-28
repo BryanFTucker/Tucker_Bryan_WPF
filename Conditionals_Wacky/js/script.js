@@ -13,16 +13,18 @@ if (lightSpeed === ""){
 
 var shipSpeed = prompt("How fast do you want to go?", "1, 2, 3");
 
-if (shipSpeed === "" || (shipSpeed <= 0 && shipSpeed > 3)){
+if (shipSpeed === "" || (shipSpeed == 0 || shipSpeed > 3)){
     prompt("Please enter a velocity", "1, 2, 3");
 }
 
 
-if (shipSpeed === "1"){
+if (shipSpeed == 1){
     console.log("You're going faster than the speed of light!");
-}else if(shipSpeed === "2"){
+}else if(shipSpeed == 2){
     console.log("You're going twice the speed of light. That's Ridiculous speed!");
-}else if (shipSpeed === "3"){
+}else if (shipSpeed == 3){
     console.log("That's Ludicrous speed! You've gone into plaid!");
+}else{
+    console.log("Maybe you should install some secret hyper jets!")
 }
 
