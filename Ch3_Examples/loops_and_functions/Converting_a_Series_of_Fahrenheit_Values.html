@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>for loop Ex1</title>
+</head>
+<body>
+    <script type="text/javascript">
+
+        var degFahren = [212, 32, -459.15];
+        var degCent=[];
+        var loopCounter;
+
+        for (loopCounter = 0; loopCounter <= 2; loopCounter++)
+        {
+            degCent[loopCounter] = 5/9 * (degFahren[loopCounter] - 32);
+        }
+
+        for (loopCounter = 2; loopCounter >= 0; loopCounter--)
+        {
+            console.log("Value " + loopCounter + " was " + degFahren[loopCounter] + " degrees Fahrenheit");
+            console.log("Which is " + degCent[loopCounter] + " degrees centigrade");
+        }
+    </script>
+</body>
+</html>
