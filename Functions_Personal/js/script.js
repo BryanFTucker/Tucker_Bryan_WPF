@@ -19,4 +19,5 @@ var gasCost = prompt("How much does gas cost in your area?");
 
     while (gasCost === "" || isNaN(gasCost)){
         gasCost = prompt("Please enter a number?");
-    }   
+    }
+
