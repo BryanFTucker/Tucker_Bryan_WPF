@@ -30,4 +30,4 @@ function calcCost(A, B, C){
     return drivingCost.toFixed(2);
 }
 
-console.log("You will need to buy $" + total + "in gas.");
+console.log("You will need to buy $" + total + " in gas.");
