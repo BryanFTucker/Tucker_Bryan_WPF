@@ -27,7 +27,7 @@ function calcCost(A, B, C){
 
     var drivingCost = (A / B) * C;
 
-    return drivingCost;
+    return drivingCost.toFixed(2);
 }
 
-console.log(total);
+console.log("You will need to buy $" + total + "in gas.");
