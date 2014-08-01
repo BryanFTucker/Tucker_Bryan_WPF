@@ -27,5 +27,7 @@ function calcCost(A, B, C){
 
     var drivingCost = (A / B) * C;
 
-    return drivingCost:
+    return drivingCost;
 }
+
+console.log(total);
