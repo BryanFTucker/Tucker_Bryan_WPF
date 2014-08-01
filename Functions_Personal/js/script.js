@@ -21,3 +21,11 @@ var gasCost = prompt("How much does gas cost in your area?");
         gasCost = prompt("Please enter a number?");
     }
 
+var total = calcCost(distance, milePerGallon, gasCost);
+
+function calcCost(A, B, C){
+
+    var drivingCost = (A / B) * C;
+
+    return drivingCost:
+}
