@@ -18,3 +18,9 @@ var insuranceAmount = prompt("How much insurance do you need?");
     while ((isNaN(insuranceAmount) || insuranceAmount === "") || insuranceAmount <= 0){
         insuranceAmount = prompt("Please enter a number greater than zero.");
     }
+
+(function(){
+    var calcAmount = (insuranceAmount/100) * 2;
+    console.log(calcAmount)
+})();
+
