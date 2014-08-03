@@ -21,6 +21,6 @@ var insuranceAmount = prompt("How much insurance do you need?");
 
 (function(){
     var calcAmount = (insuranceAmount/100) * 2;
-    console.log(calcAmount)
+    console.log("Your additional insurance will add $" + calcAmount + " to the shipping cost.")
 })();
 
