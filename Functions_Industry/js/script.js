@@ -10,5 +10,7 @@ var insurance = prompt("Does your package need additional insurance?");
     }
 
     if (insurance != "yes"){
-        console.log("Since you don't need additional insurance, have a nice day.")
+        console.log("Since you don't need additional insurance, have a nice day.");
     }
+
+var insuranceAmount = prompt("How much insurance do you need?");
